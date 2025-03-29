@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0; /* Subtle background color */
+  margin: 0; /* Remove default body margins */
+  padding: 20px; /* Add some padding around content */
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333; /* Darker heading color */
+}
+
+h2 {
+  margin-top: 30px; /* Space between headings */
+}
+
+table {
+  margin: 20px auto; /* Center table and add some margin */
+  border-collapse: collapse;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd; /* Add a border to images */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px; /* Add some padding around images */
+}
+
+p {
+  line-height: 1.6; /* Improve readability with line spacing */
+  text-align: justify; /* Justify paragraph text */
+  margin-bottom: 15px; /* Add spacing between paragraphs */
+}
+
+/* Responsive Table (for smaller screens) */
+@media (max-width: 768px) {
+  table {
+    width: 100%; /* Make table full width */
+  }
+}
+
